@@ -1,0 +1,1204 @@
+[
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Victim"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Suspect"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Perpetrator"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Terrorist"
+    }
+  },
+
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Biometric Identification",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Face Recognition",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Road Traffic Management",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Road Traffic Operation",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Water Management",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Gas Management",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Gas Operation",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Heating Management",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Heating Operation",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Electricity Management",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
+    "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
+    "ID": "WaterGasHeatingElectricity",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Critical Infrastructure",
+      "purpose": "Controlling Safety Of Supply Of Electricity Operation",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of determining access to educational and vocational training institutions;",
+    "title": "AI system designed for determining access to educational institutions.",
+    "ID": "AccessToEducationalInstitutions",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Determining Access To Education",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of determining access to educational and vocational training institutions;",
+    "title": "AI system designed for determining access to educational institutions.",
+    "ID": "AccessToEducationalInstitutions",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Determining Admission To Educational Institutions",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of assigning natural persons to educational and vocational training institutions;",
+    "title": "AI system designed for putting applicants into different educational institutions.",
+    "ID": "AssigningToEducationalInstitutions",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Assigning People To Educational Institutions",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to educational institutions.",
+    "title": "AI system designed for testing students in schools and entrance exams.",
+    "ID": "TestingStudents",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Educational/Vocational Training Institution",
+      "purpose": "Evaluating Learning Outcomes",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Student"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to educational institutions.",
+    "title": "AI system designed for testing students in schools and entrance exams.",
+    "ID": "TestingStudents",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Educational/Vocational Training Institution",
+      "purpose": "Assessing Admission Test",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Student"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to educational institutions.",
+    "title": "AI system designed for testing students in schools and entrance exams.",
+    "ID": "TestingStudents",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Evaluating Learning Outcomes",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Educational Institution Applicant"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to educational institutions.",
+    "title": "AI system designed for testing students in schools and entrance exams.",
+    "ID": "TestingStudents",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Evaluating Learning Outcomes",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Child"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used for advertising vacancies",
+    "title": "AI system designed for advertising job vacancies.",
+    "ID": "AdvertisingVacancies",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Advertising vacancies",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for advertising vacancies",
+    "title": "AI system designed for advertising job vacancies.",
+    "ID": "AdvertisingVacancies",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Job Profile Matching",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used for screening or filtering applications, evaluating candidates in the course of interviews or tests",
+    "title": "AI system designed for evaluating job applicants",
+    "ID": "EvaluatingJobApplicants",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Evaluating Job Candidates",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used for screening or filtering applications, evaluating candidates in the course of interviews or tests",
+    "title": "AI system designed for evaluating job applicants",
+    "ID": "EvaluatingJobApplicants",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Job Application Filtering",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Making Promotion Decision",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Making Termination Decision",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Monitoring Employee Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Monitoring Employee Performance",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Evaluating Employee Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on promotion and termination of work-related contractual relationships",
+    "title": "AI system designed for making employee promotion and termination decisions",
+    "ID": "PromotionAndTerminationDecisions",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Evaluating Employee Performance",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI intended to be used for making decisions on task allocation",
+    "title": "AI system designed for allocating tasks to employees",
+    "ID": "AllocatingTasksToEmployees",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Employment/Workers Management/Self-Employment",
+      "purpose": "Allocating Tasks",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Employee"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services",
+    "title": "AI system designed for evaluating people’s eligibility for public welfare and services",
+    "ID": "EvaluatingEligibilityForPublicAssistance",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Evaluating Eligibility to Access Public Assistance Services",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services",
+    "title": "AI system designed for evaluating people’s eligibility for public welfare and services",
+    "ID": "EvaluatingEligibilityForPublicAssistance",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Granting Public Assistance Service",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services",
+    "title": "AI system designed for evaluating people’s eligibility for public welfare and services",
+    "ID": "EvaluatingEligibilityForPublicAssistance",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Reducing Public Assisstance Services",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services",
+    "title": "AI system designed for evaluating people’s eligibility for public welfare and services",
+    "ID": "EvaluatingEligibilityForPublicAssistance",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Revoking Public Assisstance Services",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by public authorities or on behalf of public authorities to  grant, reduce, revoke, or reclaim such benefits and services",
+    "title": "AI system designed for managing public assistance and services",
+    "ID": "ManagingPublicAssistanceAndServices",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Reclaiming Public Assisstance Services",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score, with the exception of AI systems put into service by small scale providers for their own use",
+    "title": "AI system designed for determining credit score by large-scale lenders.",
+    "ID": "DeterminingCreditScore",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Assessing Creditworthiness",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score, with the exception of AI systems put into service by small scale providers for their own use",
+    "title": "AI system designed for determining credit score by large-scale lenders.",
+    "ID": "DeterminingCreditScore",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Determining Credit Score",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used to dispatch emergency first response services, including by firefighters and medical aid.",
+    "title": "AI system designed for dispatching emergency services",
+    "ID": "DispatchingEmergencyServices",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Dispatching Emergency Service",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used to establish priority in the dispatching of emergency first response services, including by firefighters and medical aid.",
+    "title": "AI system designed for establishing priority in the dispatching of emergency services.",
+    "ID": "EstablishingPriorityInDispatchingEmergencyServices",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Public Service/Private Service",
+      "purpose": "Prioritisation Of Emergency Service",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
+    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
+    "ID": "AssessingRiskOfOffendingOrReoffending",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk Of Offending",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
+    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
+    "ID": "AssessingRiskOfOffendingOrReoffending",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk Of Reoffending",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
+    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
+    "ID": "AssessingRiskOfOffendingOrReoffending",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk Of Offending",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
+    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
+    "ID": "AssessingRiskOfOffendingOrReoffending",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk Of Reoffending",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for law enforcement to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTests",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Any",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for law enforcement to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTests",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Any",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for law enforcement to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTests",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Any",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for law enforcement to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTests",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Any",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk for potential victims of criminal offences",
+    "title": "AI system designed for law enforcement to evaluate individuals' risk of becoming crime victims",
+    "ID": "AssessingRiskForPotentialVictimsOfCriminalOffences",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk For Potential Victims Of Criminal Offences",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk for potential victims of criminal offences",
+    "title": "AI system designed for law enforcement to evaluate individuals' risk of becoming crime victims",
+    "ID": "AssessingRiskForPotentialVictimsOfCriminalOffences",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Risk For Potential Victims Of Criminal Offences",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities to detect deep fakes as referred to in article 52(3)",
+    "title": "AI system designed for law enforcement to detect deep fakes",
+    "ID": "DetectingDeepFakes",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Deep Fake Detection",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities to detect deep fakes as referred to in article 52(3)",
+    "title": "AI system designed for law enforcement to detect deep fakes",
+    "ID": "DetectingDeepFakes",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Deep Fake Detection",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for evaluation of the reliability of evidence in the course of investigation or prosecution of criminal offences",
+    "title": "AI system designed for law enforcement to evaluate evidence in criminal proceedings",
+    "ID": "EvaluatingReliabilityOfEvidence",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Evaluating Reliability Of Evidence",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for evaluation of the reliability of evidence in the course of investigation or prosecution of criminal offences",
+    "title": "AI system designed for law enforcement to evaluate evidence in criminal proceedings",
+    "ID": "EvaluatingReliabilityOfEvidence",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Evaluating Reliability Of Evidence",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Occurrence Of Criminal Offence",
+      "AI_capability": "Profiling",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Profiling",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Occurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Past Criminal Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Past Criminal Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Occurrence Of Criminal Offence",
+      "AI_capability": "Profiling",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Profiling",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Occurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Predicting Reoccurrence Of Criminal Offence",
+      "AI_capability": "Personality Traits Analysis",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Past Criminal Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
+    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
+    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Law Enforcement",
+      "purpose": "Assessing Past Criminal Behaviour",
+      "AI_capability": "Any",
+      "AI_user": "Law Enforcement Authority Representative",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Performing Background Checks",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Performing Background Checks",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Verification Of Migration Seeker Claims",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Verification Of Migration Seeker Claims",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Verification Of Asylum Seeker Claims",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Verification Of Asylum Seeker Claims",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Border Control Security Check",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
+    "title": "AI system designed for immigration officials to administer lie detector tests",
+    "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Border Control Security Check",
+      "AI_capability": "Lie Detection",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities to assess a risk, including a security risk, a risk of irregular immigration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State",
+    "title": "AI system designed for immigration officials to assess security and health risk of incoming individuals",
+    "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Assessing Risk Of Irregular Immigration",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities to assess a risk, including a security risk, a risk of irregular immigration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State",
+    "title": "AI system designed for immigration officials to assess security and health risk of incoming individuals",
+    "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Assessing Health Risk",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities to assess a risk, including a security risk, a risk of irregular immigration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State",
+    "title": "AI system designed for immigration officials to assess security and health risk of incoming individuals",
+    "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Assessing Security Risk",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features",
+    "title": "AI system designed for immigration officials to verify incoming individuals documents",
+    "ID": "VerifyingIncomingIndividualsDocuments",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Examining Asylum Application",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features",
+    "title": "AI system designed for immigration officials to verify incoming individuals documents",
+    "ID": "VerifyingIncomingIndividualsDocuments",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Examining Migration Related Complaints",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features",
+    "title": "AI system designed for immigration officials to verify incoming individuals documents",
+    "ID": "VerifyingIncomingIndividualsDocuments",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Examining Residence Permits Application",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used by competent public authorities for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features",
+    "title": "AI system designed for immigration officials to verify incoming individuals documents",
+    "ID": "VerifyingIncomingIndividualsDocuments",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Examining Visa Application",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status",
+    "title": "AI system designed for immigration official to evaluate asylum, visa, and residence permit applications",
+    "ID": "EvaluatingAsylumVisaAndResidencePermitApplications",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Examining Migration Related Complaints",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3:  AI systems intended to assist a judicial authority in researching and interpreting facts and the law",
+    "title": "AI system designed for legal authorities to assist in researching and interpreting the law",
+    "ID": "AssistingInResearchingAndInterpretingTheLaw",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Administration of Justice",
+      "purpose": "Interpreting Law",
+      "AI_capability": "Any",
+      "AI_user": "Judicial Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3:  AI systems intended to assist a judicial authority in researching and interpreting facts and the law",
+    "title": "AI system designed for legal authorities to assist in researching and interpreting the law",
+    "ID": "AssistingInResearchingAndInterpretingTheLaw",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Administration of Justice",
+      "purpose": "Interpreting Facts",
+      "AI_capability": "Any",
+      "AI_user": "Judicial Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to assist a judicial authority in applying the law to a concrete set of facts",
+    "title": "AI system designed for legal authorities to assist in applying the law to a set of facts",
+    "ID": "AssistingInApplyingTheLawToASetOfFacts",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Administration of Justice",
+      "purpose": "Applying The Law To Facts",
+      "AI_capability": "Any",
+      "AI_user": "Judicial Authority",
+      "AI_subject": "Any"
+    }
+  }
+]

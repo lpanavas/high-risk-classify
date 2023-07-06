@@ -1,0 +1,68 @@
+[
+  {
+    "reference": "AI systems deploying subliminal techniques beyond a person’s consciousness to materially distort a person’s behaviour that causes or is likely to cause physical or psychological harm;",
+    "title": "AI system designed to manipulate behavior through subliminal techniques.",
+    "ID": "SubliminalManipulation",
+    "classification": "Unacceptable risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Behavioral Manipulation",
+      "AI_capability": "Subliminal Perception Manipulation",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "AI systems exploiting the vulnerabilities of a specific group of persons due to their age, physical or mental disability;",
+    "title": "AI system designed to exploit vulnerabilities of specific groups.",
+    "ID": "ExploitVulnerability",
+    "classification": "Unacceptable risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Exploiting Vulnerabilities",
+      "AI_capability": "Behavioral Pattern Recognition",
+      "AI_user": "Any",
+      "AI_subject": "Specific Group (Based on Age, Physical Disability, Mental Disability)"
+    }
+  },
+  {
+    "reference": "AI systems that distort the behaviour of a person pertaining to a specific group in a manner that causes or is likely to cause physical or psychological harm;",
+    "title": "AI system designed to distort behavior causing harm.",
+    "ID": "BehaviorDistortion",
+    "classification": "Unacceptable risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Behavioral Distortion",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Specific Group (Based on Age, Physical Disability, Mental Disability)"
+    }
+  },
+  {
+    "reference": "AI systems used by public authorities for evaluating or classifying the trustworthiness of natural persons over a certain period based on their social behaviour or personal/ personality characteristics, with the social score leading to detrimental or unfavourable treatment;",
+    "title": "AI system designed for social scoring leading to detrimental treatment.",
+    "ID": "SocialScoring",
+    "classification": "Unacceptable risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Behavioral Analysis & Scoring",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "Unacceptable risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Law Enforcement Authority",
+      "AI_subject": "Any"
+    }
+  }
+]

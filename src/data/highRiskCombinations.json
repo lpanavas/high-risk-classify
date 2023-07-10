@@ -212,6 +212,33 @@
   },
 
   {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Managing Critical Digital Infrastructure",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Operating Critical Digital Infrastructure",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
     "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating and electricity.",
     "title": "AI system designed for controlling the safety of water, gas, heating, and electricity operations.",
     "ID": "WaterGasHeatingElectricity",

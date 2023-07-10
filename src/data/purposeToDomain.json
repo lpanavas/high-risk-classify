@@ -31,6 +31,17 @@
   },
 
   {
+    "purpose": "Managing Critical Digital Infrastructure",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Operating Critical Digital Infrastructure",
+
+    "domain": "Critical Infrastructure"
+  },
+
+  {
     "purpose": "Controlling Safety Of Supply Of Water Management",
 
     "domain": "Critical Infrastructure"

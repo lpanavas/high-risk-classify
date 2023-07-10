@@ -12,11 +12,13 @@
     "Asylum",
     "Border Control",
     "Administration Of Justice",
-    "Administration Of Democratic Processes"
+    "Administration Of Democratic Processes",
+    "Social Media"
   ],
 
   "Purposes": [
     "Remote Identification Of People",
+    "Recommend Content",
     "Content Generation",
     "Generating Audio Content",
     "Generating Image Content",
@@ -35,7 +37,7 @@
     "Determining Access To Education",
     "Determining Admission To Educational Institutions",
     "Evaluating Learning Outcomes",
-    "Tailored Advertising of Job Vacancies",
+    "Placing Targeted Job Advertisements",
     "Job Application Filtering",
     "Evaluating Job Candidates",
     "Evaluating Interview",
@@ -53,8 +55,7 @@
     "Assessing Health Risk at Border Control",
     "Assessing Risk For Potential Victims Of Criminal Offences",
     "Assessing Risk Of Irregular Immigration",
-    "Assessing Risk Of Offending",
-    "Assessing Risk Of Reoffending",
+
     "Assessing Security Risk at Border Control",
     "Assessing Personality Traits",
     "Evaluating Eligibility To Access Public Assistance Services",
@@ -69,6 +70,7 @@
     "Prioritisation Of Emergency Service",
     "Allocating Tasks",
     "Allocation Of Social Benefits",
+    "Predicting Migration Trends",
     "Reclaiming Public Assisstance Services",
     "Granting Public Assistance Service",
     "Reducing Public Assisstance Services",
@@ -76,24 +78,28 @@
     "Predicting Occurrence Of Criminal Offence",
     "Predicting Reoccurrence Of Criminal Offence",
     "Monitoring Employee Behaviour",
+    "Monitoring Individuals",
     "Monitoring Employee Performance",
     "Producing Recommendation",
     "Managing Critical Digital Infrastructure",
     "Managing Road Traffic",
+    "Managing Air Traffic",
+    "Managing Rail Traffic",
     "Managing Supply Of Water",
     "Managing Supply Of Gas",
     "Managing Supply Of Heating",
     "Managing Supply Of Electricity",
     "Operating Critical Digital Infrastructure",
     "Operating Road Traffic",
+    "Operating Rail Traffic",
+    "Operating Air Traffic",
     "Operating Supply Of Water",
     "Operating Supply Of Gas",
     "Operating Supply Of Heating",
     "Operating Supply Of Electricity",
     "Controlling Safety Of Critical Digital Infrastructure Management",
     "Controlling Safety Of Critical Digital Infrastructure Operation",
-    "Controlling Safety Of Road Traffic Management",
-    "Controlling Safety Of Road Traffic Operation",
+
     "Controlling Safety Of Supply Of Water Management",
     "Controlling Safety Of Supply Of Gas Management",
     "Controlling Safety Of Supply Of Gas Operation",
@@ -185,7 +191,9 @@
     "Deep Learning Model Development",
     "Behavioral Manipulation",
     "Behavioral Analysis & Scoring",
-    "Behavioral Distortion"
+    "Behavioral Distortion",
+    "Detecting Financial Fraud",
+    "Determining insurance Eligibility"
   ],
   "Capabilities": [
     "Biometric Identification",
@@ -219,13 +227,15 @@
     "Lie Detection",
     "Sentiment Analysis",
     "Subliminal Perception Manipulation",
-    "Behavioral Pattern Recognition"
+    "Behavioral Pattern Recognition",
+    "Influencing Election Outcomes"
   ],
   "Stakeholders": [
     "Importer",
     "Distributor",
-
+    "Administrative Body",
     "Conformity Assessment Body",
+    "Social Media Platforms",
 
     "Market Surveillance Authority",
     "Law Enforcement Authority",

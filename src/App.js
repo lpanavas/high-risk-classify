@@ -59,8 +59,6 @@ function App() {
       AI_subject: AI_subject.value,
     };
 
-    console.log(userInput);
-
     // First, look for exact match in highRiskCombinations
     for (let i = 0; i < highRiskCombinations.length; i++) {
       let combination = highRiskCombinations[i].semanticModel;

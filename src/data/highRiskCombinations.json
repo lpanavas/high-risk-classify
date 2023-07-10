@@ -65,6 +65,7 @@
       "AI_subject": "Any"
     }
   },
+
   {
     "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
     "title": "AI system designed for the remote identification of people.",
@@ -73,7 +74,20 @@
     "semanticModel": {
       "domain": "Any",
       "purpose": "Remote Identification Of People",
-      "AI_capability": "Biometric Identification",
+      "AI_capability": "Emotion Recognition",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Profiling",
       "AI_user": "Any",
       "AI_subject": "Any"
     }
@@ -97,8 +111,8 @@
     "ID": "RoadTraffic",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
-      "purpose": "Controlling Safety Of Road Traffic Management",
+      "domain": "Any",
+      "purpose": "Managing Road Traffic",
       "AI_capability": "Any",
       "AI_user": "Any",
       "AI_subject": "Any"
@@ -110,8 +124,87 @@
     "ID": "RoadTraffic",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
-      "purpose": "Controlling Safety Of Road Traffic Operation",
+      "domain": "Any",
+      "purpose": "Managing Air Traffic",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendments: AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the context of/within education and vocational training institutions.",
+    "title": "AI system designed for monitoring students during tests.",
+    "ID": "MonitoringStudents",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Monitoring Individuals",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Student"
+    }
+  },
+  {
+    "reference": "Amendment 737: AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management for the forecasting or prediction of trends related to migration movement and border crossing.",
+    "title": "AI system for forecasting migration and border crossing trends.",
+    "ID": "MigrationForecast",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration/Asylum/Border Control Management",
+      "purpose": "Predicting Migration Trends",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority ",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Managing Rail Traffic",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Operating Road Traffic",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Operating Rail Traffic",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3: AI systems intended to be used as safety components in the management and operation of road traffic",
+    "title": "AI system designed for controlling the safety of road traffic operations.",
+    "ID": "RoadTraffic",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Operating Air Traffic",
       "AI_capability": "Any",
       "AI_user": "Any",
       "AI_subject": "Any"
@@ -124,7 +217,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Water Management",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -137,7 +230,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Gas Management",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -150,7 +243,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Gas Operation",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -163,7 +256,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Heating Management",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -176,7 +269,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Heating Operation",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -189,7 +282,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Electricity Management",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -202,7 +295,7 @@
     "ID": "WaterGasHeatingElectricity",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Critical Infrastructure",
+      "domain": "Any",
       "purpose": "Controlling Safety Of Supply Of Electricity Operation",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -216,7 +309,7 @@
     "ID": "AccessToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Determining Access To Education",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -229,7 +322,7 @@
     "ID": "AccessToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Determining Admission To Educational Institutions",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -242,7 +335,7 @@
     "ID": "AssigningToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Assigning People To Educational Institutions",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -255,7 +348,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Evaluating Learning Outcomes",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -268,7 +361,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Assessing Admission Test",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -282,7 +375,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Evaluating Learning Outcomes",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -295,7 +388,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Educational/Vocational Training Institution",
+      "domain": "Any",
       "purpose": "Evaluating Learning Outcomes",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -309,8 +402,8 @@
     "ID": "AdvertisingVacancies",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
-      "purpose": "Tailored Advertising of Job Vacancies",
+      "domain": "Any",
+      "purpose": "Placing Targeted Job Advertisements",
       "AI_capability": "Any",
       "AI_user": "Any",
       "AI_subject": "Any"
@@ -322,7 +415,7 @@
     "ID": "AdvertisingVacancies",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Job Profile Matching",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -336,7 +429,7 @@
     "ID": "EvaluatingJobApplicants",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Evaluating Job Candidates",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -349,7 +442,7 @@
     "ID": "EvaluatingJobApplicants",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Job Application Filtering",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -363,7 +456,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Making Promotion Decision",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -376,7 +469,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Making Termination Decision",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -390,7 +483,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Monitoring Employee Behaviour",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -403,7 +496,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Monitoring Employee Performance",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -417,7 +510,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Evaluating Employee Behaviour",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -430,7 +523,7 @@
     "ID": "PromotionAndTerminationDecisions",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Evaluating Employee Performance",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -444,9 +537,10 @@
     "ID": "AllocatingTasksToEmployees",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Any",
       "purpose": "Allocating Tasks",
-      "AI_capability": "Any",
+      "AI_capability": "Personality Traits Analysis",
+
       "AI_user": "Any",
       "AI_subject": "Employee"
     }
@@ -458,7 +552,7 @@
     "ID": "EvaluatingEligibilityForPublicAssistance",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Evaluating Eligibility to Access Public Assistance Services",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -471,7 +565,7 @@
     "ID": "EvaluatingEligibilityForPublicAssistance",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Granting Public Assistance Service",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -484,7 +578,7 @@
     "ID": "EvaluatingEligibilityForPublicAssistance",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Reducing Public Assisstance Services",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -497,7 +591,7 @@
     "ID": "EvaluatingEligibilityForPublicAssistance",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Revoking Public Assisstance Services",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -511,7 +605,7 @@
     "ID": "ManagingPublicAssistanceAndServices",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Reclaiming Public Assisstance Services",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -525,8 +619,21 @@
     "ID": "DeterminingCreditScore",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Assessing Creditworthiness",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendment 723: AI systems intended to be used for making decisions or materially influencing decisions on the eligibility of natural persons for health and life insurance.",
+    "title": "AI system designed for influencing decisions on insurance eligibility.",
+    "ID": "InsuranceDecisionInfluence",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Decision Making on Insurance Eligibility",
       "AI_capability": "Any",
       "AI_user": "Any",
       "AI_subject": "Any"
@@ -538,7 +645,7 @@
     "ID": "DeterminingCreditScore",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Determining Credit Score",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -552,7 +659,7 @@
     "ID": "DispatchingEmergencyServices",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Dispatching Emergency Service",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -566,7 +673,7 @@
     "ID": "EstablishingPriorityInDispatchingEmergencyServices",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Public Service/Private Service",
+      "domain": "Any",
       "purpose": "Prioritisation Of Emergency Service",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -575,65 +682,12 @@
   },
 
   {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
-    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
-    "ID": "AssessingRiskOfOffendingOrReoffending",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Assessing Risk Of Offending",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
-    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
-    "ID": "AssessingRiskOfOffendingOrReoffending",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Assessing Risk Of Reoffending",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
-    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
-    "ID": "AssessingRiskOfOffendingOrReoffending",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Assessing Risk Of Offending",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority Representative",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending",
-    "title": "AI system designed for law enforcement to assess individuals' risk of committing a crime",
-    "ID": "AssessingRiskOfOffendingOrReoffending",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Assessing Risk Of Reoffending",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority Representative",
-      "AI_subject": "Any"
-    }
-  },
-
-  {
     "reference": "Annex 3: AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person",
     "title": "AI system designed for law enforcement to administer lie detector tests",
     "ID": "AdministeringLieDetectorTests",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Any",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Law Enforcement Authority",
@@ -646,7 +700,7 @@
     "ID": "AdministeringLieDetectorTests",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Any",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Law Enforcement Authority Representative",
@@ -659,7 +713,7 @@
     "ID": "AdministeringLieDetectorTests",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Any",
       "AI_capability": "Lie Detection",
       "AI_user": "Law Enforcement Authority",
@@ -672,7 +726,7 @@
     "ID": "AdministeringLieDetectorTests",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Any",
       "AI_capability": "Lie Detection",
       "AI_user": "Law Enforcement Authority Representative",
@@ -686,7 +740,7 @@
     "ID": "AssessingRiskForPotentialVictimsOfCriminalOffences",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Risk For Potential Victims Of Criminal Offences",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority",
@@ -699,7 +753,7 @@
     "ID": "AssessingRiskForPotentialVictimsOfCriminalOffences",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Risk For Potential Victims Of Criminal Offences",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority Representative",
@@ -708,39 +762,12 @@
   },
 
   {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities to detect deep fakes as referred to in article 52(3)",
-    "title": "AI system designed for law enforcement to detect deep fakes",
-    "ID": "DetectingDeepFakes",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Deep Fake Detection",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities to detect deep fakes as referred to in article 52(3)",
-    "title": "AI system designed for law enforcement to detect deep fakes",
-    "ID": "DetectingDeepFakes",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Deep Fake Detection",
-      "AI_capability": "Any",
-      "AI_user": "Law Enforcement Authority Representative",
-      "AI_subject": "Any"
-    }
-  },
-
-  {
     "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for evaluation of the reliability of evidence in the course of investigation or prosecution of criminal offences",
     "title": "AI system designed for law enforcement to evaluate evidence in criminal proceedings",
     "ID": "EvaluatingReliabilityOfEvidence",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Evaluating Reliability Of Evidence",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority",
@@ -754,7 +781,7 @@
     "ID": "EvaluatingReliabilityOfEvidence",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Evaluating Reliability Of Evidence",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority Representative",
@@ -768,72 +795,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Predicting Occurrence Of Criminal Offence",
-      "AI_capability": "Profiling",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
-    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
-    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Predicting Reoccurrence Of Criminal Offence",
-      "AI_capability": "Profiling",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
-    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
-    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Predicting Reoccurrence Of Criminal Offence",
-      "AI_capability": "Personality Traits Analysis",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
-    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
-    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Predicting Occurrence Of Criminal Offence",
-      "AI_capability": "Personality Traits Analysis",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
-    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
-    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
-      "purpose": "Predicting Reoccurrence Of Criminal Offence",
-      "AI_capability": "Personality Traits Analysis",
-      "AI_user": "Law Enforcement Authority",
-      "AI_subject": "Any"
-    }
-  },
-  {
-    "reference": "Annex 3: AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups",
-    "title": "AI system designed for law enforcement to predict crime by analyzing individual’s behavior",
-    "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
-    "classification": "High risk",
-    "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Past Criminal Behaviour",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority",
@@ -846,7 +808,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Past Criminal Behaviour",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority",
@@ -860,7 +822,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Predicting Occurrence Of Criminal Offence",
       "AI_capability": "Profiling",
       "AI_user": "Law Enforcement Authority Representative",
@@ -873,7 +835,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Predicting Reoccurrence Of Criminal Offence",
       "AI_capability": "Profiling",
       "AI_user": "Law Enforcement Authority Representative",
@@ -886,7 +848,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Predicting Reoccurrence Of Criminal Offence",
       "AI_capability": "Personality Traits Analysis",
       "AI_user": "Law Enforcement Authority Representative",
@@ -899,7 +861,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Predicting Occurrence Of Criminal Offence",
       "AI_capability": "Personality Traits Analysis",
       "AI_user": "Law Enforcement Authority Representative",
@@ -912,7 +874,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Predicting Reoccurrence Of Criminal Offence",
       "AI_capability": "Personality Traits Analysis",
       "AI_user": "Law Enforcement Authority Representative",
@@ -925,7 +887,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Past Criminal Behaviour",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority Representative",
@@ -938,7 +900,7 @@
     "ID": "PredictingCrimeByAnalyzingIndividualsBehavior",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Law Enforcement",
+      "domain": "Any",
       "purpose": "Assessing Past Criminal Behaviour",
       "AI_capability": "Any",
       "AI_user": "Law Enforcement Authority Representative",
@@ -952,7 +914,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Performing Background Checks",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Public Authority",
@@ -965,7 +927,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Performing Background Checks",
       "AI_capability": "Lie Detection",
       "AI_user": "Public Authority",
@@ -979,7 +941,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Verification Of Migration Seeker Claims",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Public Authority",
@@ -992,7 +954,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Verification Of Migration Seeker Claims",
       "AI_capability": "Lie Detection",
       "AI_user": "Public Authority",
@@ -1006,7 +968,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Verification Of Asylum Seeker Claims",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Public Authority",
@@ -1019,7 +981,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Verification Of Asylum Seeker Claims",
       "AI_capability": "Lie Detection",
       "AI_user": "Public Authority",
@@ -1033,7 +995,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Border Control Security Check",
       "AI_capability": "Emotion Recognition",
       "AI_user": "Public Authority",
@@ -1046,7 +1008,7 @@
     "ID": "AdministeringLieDetectorTestsToImmigrationOfficials",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Border Control Security Check",
       "AI_capability": "Lie Detection",
       "AI_user": "Public Authority",
@@ -1060,7 +1022,7 @@
     "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Assessing Risk Of Irregular Immigration",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1073,7 +1035,7 @@
     "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Assessing Health Risk at Border Control",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1086,7 +1048,7 @@
     "ID": "AssessingSecurityAndHealthRiskOfIncomingIndividuals",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Assessing Security Risk at Border Control",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1100,7 +1062,7 @@
     "ID": "VerifyingIncomingIndividualsDocuments",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Examining Asylum Application",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1113,7 +1075,7 @@
     "ID": "VerifyingIncomingIndividualsDocuments",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Examining Migration Related Complaints",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1126,7 +1088,7 @@
     "ID": "VerifyingIncomingIndividualsDocuments",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Examining Residence Permits Application",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1139,7 +1101,7 @@
     "ID": "VerifyingIncomingIndividualsDocuments",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Examining Visa Application",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
@@ -1153,8 +1115,48 @@
     "ID": "EvaluatingAsylumVisaAndResidencePermitApplications",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Migration/Asylum/Border Control Management",
+      "domain": "Any",
       "purpose": "Examining Migration Related Complaints",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendment 736: AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management to monitor, surveil or process data in the context of border management activities, for the purpose of detecting, recognising or identifying natural persons.",
+    "title": "AI system for monitoring, surveillance and data processing in border management.",
+    "ID": "BorderManagementMonitor",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Migration",
+      "purpose": "Monitoring Individuals",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendment 736: AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management to monitor, surveil or process data in the context of border management activities, for the purpose of detecting, recognising or identifying natural persons.",
+    "title": "AI system for monitoring, surveillance and data processing in border management.",
+    "ID": "BorderManagementMonitor",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Asylum",
+      "purpose": "Monitoring Individuals",
+      "AI_capability": "Any",
+      "AI_user": "Public Authority",
+      "AI_subject": "Any"
+    }
+  },
+
+  {
+    "reference": "Amendment 736: AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management to monitor, surveil or process data in the context of border management activities, for the purpose of detecting, recognising or identifying natural persons.",
+    "title": "AI system for monitoring, surveillance and data processing in border management.",
+    "ID": "BorderManagementMonitor",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Border Control",
+      "purpose": "Monitoring Individuals",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
       "AI_subject": "Any"
@@ -1167,7 +1169,7 @@
     "ID": "AssistingInResearchingAndInterpretingTheLaw",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Administration of Justice",
+      "domain": "Any",
       "purpose": "Interpreting Law",
       "AI_capability": "Any",
       "AI_user": "Judicial Authority",
@@ -1180,10 +1182,36 @@
     "ID": "AssistingInResearchingAndInterpretingTheLaw",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Administration of Justice",
+      "domain": "Any",
       "purpose": "Interpreting Facts",
       "AI_capability": "Any",
       "AI_user": "Judicial Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3:  AI systems intended to assist a judicial authority in researching and interpreting facts and the law",
+    "title": "AI system designed for legal authorities to assist in researching and interpreting the law",
+    "ID": "AssistingInResearchingAndInterpretingTheLaw",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Interpreting Law",
+      "AI_capability": "Any",
+      "AI_user": "Administrative Body",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Annex 3:  AI systems intended to assist a judicial authority in researching and interpreting facts and the law",
+    "title": "AI system designed for legal authorities to assist in researching and interpreting the law",
+    "ID": "AssistingInResearchingAndInterpretingTheLaw",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Interpreting Facts",
+      "AI_capability": "Any",
+      "AI_user": "Administrative Body",
       "AI_subject": "Any"
     }
   },
@@ -1194,10 +1222,36 @@
     "ID": "AssistingInApplyingTheLawToASetOfFacts",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Administration of Justice",
+      "domain": "Any",
       "purpose": "Applying The Law To Facts",
       "AI_capability": "Any",
       "AI_user": "Judicial Authority",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendment 739: AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems whose output natural persons are not directly exposed to, such as tools used to organise, optimise and structure political campaigns from an administrative and logistic point of view.",
+    "title": "AI system for influencing election or referendum outcomes or voting behavior.",
+    "ID": "ElectionInfluence",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Political Campaigns and Elections",
+      "purpose": "Influencing Election Outcomes",
+      "AI_capability": "Any",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "Amendment 740: AI systems intended to be used by social media platforms that have been designated as very large online platforms within the meaning of Article 33 of Regulation EU 2022/2065, in their recommender systems to recommend to the recipient of the service user-generated content available on the platform.",
+    "title": "AI system for recommending user-generated content on very large online platforms.",
+    "ID": "ContentRecommender",
+    "classification": "High Risk",
+    "semanticModel": {
+      "domain": "Social Media",
+      "purpose": "Recommend Content",
+      "AI_capability": "Any",
+      "AI_user": "Social Media Platforms",
       "AI_subject": "Any"
     }
   }

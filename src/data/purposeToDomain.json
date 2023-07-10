@@ -1,14 +1,35 @@
 [
   {
-    "purpose": "Controlling Safety Of Road Traffic Management",
+    "purpose": "Managing Road Traffic",
 
     "domain": "Critical Infrastructure"
   },
   {
-    "purpose": "Controlling Safety Of Road Traffic Operation",
+    "purpose": "Managing Air Traffic",
 
     "domain": "Critical Infrastructure"
   },
+  {
+    "purpose": "Managing Rail Traffic",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Operating Road Traffic",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Operating Rail Traffic",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Operating Air Traffic",
+
+    "domain": "Critical Infrastructure"
+  },
+
   {
     "purpose": "Controlling Safety Of Supply Of Water Management",
 
@@ -32,7 +53,7 @@
   },
 
   {
-    "purpose": "CControlling Safety Of Supply Of Heating Operation",
+    "purpose": "Controlling Safety Of Supply Of Heating Operation",
 
     "domain": "Critical Infrastructure"
   },
@@ -92,8 +113,15 @@
 
     "domain": "Education"
   },
+
   {
-    "purpose": "Tailored Advertising of Job Vacancies",
+    "purpose": "Monitoring Students",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Placing Targeted Job Advertisements",
 
     "domain": "Employment"
   },
@@ -168,6 +196,11 @@
     "domain": "Public Service"
   },
   {
+    "purpose": "Dispatching Emergency Service",
+    "domain": "Public Service"
+  },
+
+  {
     "purpose": "Prioritisation Of Emergency Service",
     "domain": "Public Service"
   },
@@ -213,6 +246,14 @@
   {
     "purpose": "Assessing Security Risk at Border Control",
     "domain": "Migration"
+  },
+  {
+    "purpose": "Predicting Migration Trends",
+    "domain": "Migration"
+  },
+  {
+    "AI_user": "Social Media Platforms",
+    "domain": "Social Media"
   },
 
   {

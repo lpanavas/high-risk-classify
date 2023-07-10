@@ -1,0 +1,250 @@
+[
+  {
+    "purpose": "Controlling Safety Of Road Traffic Management",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Road Traffic Operation",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Supply Of Water Management",
+
+    "domain": "Critical Infrastructure"
+  },
+
+  {
+    "purpose": "Controlling Safety Of Supply Of Gas Management",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Supply Of Gas Operation",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Supply Of Heating Management",
+
+    "domain": "Critical Infrastructure"
+  },
+
+  {
+    "purpose": "CControlling Safety Of Supply Of Heating Operation",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Supply Of Electricity Management",
+
+    "domain": "Critical Infrastructure"
+  },
+  {
+    "purpose": "Controlling Safety Of Supply Of Electricity Operation",
+
+    "domain": "Critical Infrastructure"
+  },
+
+  {
+    "purpose": "Determining Access To Education",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Determining Admission To Educational Institutions",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Assigning People To Educational Institutions",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Evaluating Learning Outcomes",
+    "AI_subject": "Student",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Assessing Admission Test",
+    "AI_subject": "Student",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Evaluating Learning Outcomes",
+    "AI_subject": "Educational Institution Applicant",
+
+    "domain": "Education"
+  },
+
+  {
+    "purpose": "Evaluating Learning Outcomes",
+    "AI_subject": "Child",
+
+    "domain": "Education"
+  },
+  {
+    "purpose": "Tailored Advertising of Job Vacancies",
+
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Job Profile Matching",
+
+    "domain": "Employment"
+  },
+
+  {
+    "purpose": "Evaluating Job Candidates",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Job Application Filtering",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Making Promotion Decision",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Making Termination Decision",
+    "domain": "Employment"
+  },
+
+  {
+    "purpose": "Monitoring Employee Behaviour",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Monitoring Employee Performance",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Evaluating Employee Behaviour",
+    "domain": "Employment"
+  },
+  {
+    "purpose": "Evaluating Employee Performance",
+    "domain": "Employment"
+  },
+
+  {
+    "purpose": "Allocating Tasks",
+    "domain": "Employment",
+    "AI_subject": "Employee"
+  },
+
+  {
+    "purpose": "Evaluating Eligibility to Access Public Assistance Services",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Granting Public Assistance Service",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Reducing Public Assisstance Services",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Revoking Public Assisstance Services",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Reclaiming Public Assisstance Services",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Dispatching Emergency Service",
+    "domain": "Public Service"
+  },
+  {
+    "purpose": "Prioritisation Of Emergency Service",
+    "domain": "Public Service"
+  },
+
+  {
+    "purpose": "Assessing Creditworthiness",
+    "domain": "Private Service"
+  },
+  {
+    "purpose": "Determining Credit Score",
+    "domain": "Private Service"
+  },
+
+  {
+    "AI_user": "Law Enforcement Authority",
+    "domain": "Law Enforcement"
+  },
+  {
+    "purpose": "Performing Background Checks",
+    "AI_user": "Public Authority",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Verification Of Migration Seeker Claims",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Verification Of Asylum Seeker Claims",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Border Control Security Check",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Assessing Risk Of Irregular Immigration",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Assessing Health Risk at Border Control",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Assessing Security Risk at Border Control",
+    "domain": "Migration"
+  },
+
+  {
+    "purpose": "Examining Asylum Application",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Examining Migration Related Complaints",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Examining Residence Permits Application",
+    "domain": "Migration"
+  },
+  {
+    "purpose": "Examining Visa Application",
+    "domain": "Migration"
+  },
+
+  {
+    "purpose": "Interpreting Law",
+    "AI_user": "Judicial Authority",
+    "domain": "Administration of Justice"
+  },
+  {
+    "purpose": "Interpreting Facts",
+    "AI_user": "Judicial Authority",
+    "domain": "Administration of Justice"
+  },
+  {
+    "purpose": "Applying The Law To Facts",
+    "AI_user": "Judicial Authority",
+    "domain": "Administration of Justice"
+  }
+]

@@ -1,4 +1,20 @@
 {
+  "Domain": [
+    "Critical Infrastructure",
+    "Education",
+    "Vocational Training",
+    "Employment",
+    "Workers Management",
+    "Self-Employment",
+    "Private Service",
+    "Public Service",
+    "Migration",
+    "Asylum",
+    "Border Control",
+    "Administration Of Justice",
+    "Administration Of Democratic Processes"
+  ],
+
   "Purposes": [
     "Remote Identification Of People",
     "Content Generation",
@@ -19,7 +35,7 @@
     "Determining Access To Education",
     "Determining Admission To Educational Institutions",
     "Evaluating Learning Outcomes",
-    "Advertising Vacancies",
+    "Tailored Advertising of Job Vacancies",
     "Job Application Filtering",
     "Evaluating Job Candidates",
     "Evaluating Interview",
@@ -34,12 +50,12 @@
     "Assessing Immigration Eligibility",
     "Individual Risk Assessment",
 
-    "Assessing Health Risk",
+    "Assessing Health Risk at Border Control",
     "Assessing Risk For Potential Victims Of Criminal Offences",
     "Assessing Risk Of Irregular Immigration",
     "Assessing Risk Of Offending",
     "Assessing Risk Of Reoffending",
-    "Assessing Security Risk",
+    "Assessing Security Risk at Border Control",
     "Assessing Personality Traits",
     "Evaluating Eligibility To Access Public Assistance Services",
     "Verifying Authenticity Of Travel Document",

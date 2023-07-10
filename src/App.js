@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Select from "react-select";
 import "./App.css";
 import inputData from "./data/VAIR.json";
 import highRiskCombinations from "./data/highRiskCombinations.json";
 import unacceptableRisk from "./data/unacceptableRisk.json";
+import purposeToDomain from "./data/purposeToDomain.json";
+
 // Get options for select input from data
 function getOptions(data, prefix) {
   // Add default "Any" option to the beginning of your options array
@@ -15,13 +17,38 @@ function getOptions(data, prefix) {
     })),
   ];
 }
-console.log(inputData);
 
 function App() {
+  const [AI_domain, setAI_domain] = useState("Any"); // Set default value
   const [AI_purpose, setAI_purpose] = useState("");
   const [AI_capability, setAI_capability] = useState("Any");
   const [AI_user, setAI_user] = useState("Any");
   const [AI_subject, setAI_subject] = useState("Any");
+
+  useEffect(() => {
+    setAI_domain({ value: "Any", label: "Any" });
+
+    purposeToDomain.forEach((rule) => {
+      let matched = true; // assumption that the rule will match
+
+      if (rule.purpose && AI_purpose.value !== rule.purpose) {
+        matched = false;
+      }
+      if (rule.AI_subject && AI_subject.value !== rule.AI_subject) {
+        matched = false;
+      }
+      if (rule.AI_user && AI_user.value !== rule.AI_user) {
+        matched = false;
+      }
+      if (rule.AI_capability && AI_capability.value !== rule.AI_capability) {
+        matched = false;
+      }
+
+      if (matched) {
+        setAI_domain({ value: rule.domain, label: rule.domain });
+      }
+    });
+  }, [AI_purpose, AI_subject, AI_user, AI_capability]);
 
   const checkSystem = () => {
     const userInput = {
@@ -112,6 +139,17 @@ function App() {
         Please choose a purpose for the AI. It is a required field. The button
         to check the system will only appear after a purpose has been chosen.
       </h3>
+      <h4>Purpose</h4>
+      <Select
+        className="select"
+        placeholder="Select Domain"
+        onChange={setAI_domain}
+        value={AI_domain} // Use the state value here
+        options={getOptions(inputData.Domain)}
+        isSearchable
+        isClearable
+        required
+      />
 
       <h4>Purpose</h4>
       <Select

@@ -216,7 +216,7 @@
     "ID": "AccessToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Educational/Vocational Training Institution",
       "purpose": "Determining Access To Education",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -229,7 +229,7 @@
     "ID": "AccessToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Educational/Vocational Training Institution",
       "purpose": "Determining Admission To Educational Institutions",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -242,7 +242,7 @@
     "ID": "AssigningToEducationalInstitutions",
     "classification": "High risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Educational/Vocational Training Institution",
       "purpose": "Assigning People To Educational Institutions",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -282,7 +282,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Educational/Vocational Training Institution",
       "purpose": "Evaluating Learning Outcomes",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -295,7 +295,7 @@
     "ID": "TestingStudents",
     "classification": "High Risk",
     "semanticModel": {
-      "domain": "Employment/Workers Management/Self-Employment",
+      "domain": "Educational/Vocational Training Institution",
       "purpose": "Evaluating Learning Outcomes",
       "AI_capability": "Any",
       "AI_user": "Any",
@@ -310,7 +310,7 @@
     "classification": "High risk",
     "semanticModel": {
       "domain": "Employment/Workers Management/Self-Employment",
-      "purpose": "Advertising vacancies",
+      "purpose": "Tailored Advertising of Job Vacancies",
       "AI_capability": "Any",
       "AI_user": "Any",
       "AI_subject": "Any"
@@ -1074,7 +1074,7 @@
     "classification": "High Risk",
     "semanticModel": {
       "domain": "Migration/Asylum/Border Control Management",
-      "purpose": "Assessing Health Risk",
+      "purpose": "Assessing Health Risk at Border Control",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
       "AI_subject": "Any"
@@ -1087,7 +1087,7 @@
     "classification": "High Risk",
     "semanticModel": {
       "domain": "Migration/Asylum/Border Control Management",
-      "purpose": "Assessing Security Risk",
+      "purpose": "Assessing Security Risk at Border Control",
       "AI_capability": "Any",
       "AI_user": "Public Authority",
       "AI_subject": "Any"

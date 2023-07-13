@@ -1,0 +1,28 @@
+[
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Face Recognition",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  },
+  {
+    "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
+    "title": "AI system designed for the remote identification of people.",
+    "ID": "RemoteID",
+    "classification": "High risk",
+    "semanticModel": {
+      "domain": "Any",
+      "purpose": "Remote Identification Of People",
+      "AI_capability": "Remote Biometric Identification",
+      "AI_user": "Any",
+      "AI_subject": "Any"
+    }
+  }
+]

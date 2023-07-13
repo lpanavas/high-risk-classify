@@ -137,7 +137,7 @@ function App() {
         Please choose a purpose for the AI. It is a required field. The button
         to check the system will only appear after a purpose has been chosen.
       </h3>
-      <h4>Purpose</h4>
+      <h4>Domain</h4>
       <Select
         className="select"
         placeholder="Select Domain"

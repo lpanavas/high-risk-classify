@@ -16,7 +16,7 @@
     "reference": "AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;",
     "title": "AI system designed for the remote identification of people.",
     "ID": "RemoteID",
-    "classification": "High risk",
+    "classification": "Low risk",
     "semanticModel": {
       "domain": "Any",
       "purpose": "Remote Identification Of People",

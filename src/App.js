@@ -8,46 +8,51 @@ import purposeToDomain from "./data/purposeToDomain.json";
 
 // Get options for select input from data
 function getOptions(data, prefix) {
-  // Add default "Any" option to the beginning of your options array
-  return [
-    { value: "Any", label: "Any" },
-    ...data.map((option) => ({
-      value: option,
-      label: option,
-    })),
-  ];
+  return data.map((option) => ({
+    value: option,
+    label: option,
+  }));
 }
 
 function App() {
-  const [AI_domain, setAI_domain] = useState("Any"); // Set default value
-  const [AI_purpose, setAI_purpose] = useState("");
-  const [AI_capability, setAI_capability] = useState("Any");
-  const [AI_user, setAI_user] = useState("Any");
-  const [AI_subject, setAI_subject] = useState("Any");
+  const [AI_domain, setAI_domain] = useState(null);
+  const [AI_purpose, setAI_purpose] = useState(null);
+  const [AI_capability, setAI_capability] = useState(null);
+  const [AI_user, setAI_user] = useState(null);
+  const [AI_subject, setAI_subject] = useState(null);
 
   useEffect(() => {
-    setAI_domain({ value: "Any", label: "Any" });
+    if (AI_purpose) {
+      purposeToDomain.forEach((rule) => {
+        let matched = true; // assumption that the rule will match
 
-    purposeToDomain.forEach((rule) => {
-      let matched = true; // assumption that the rule will match
+        if (
+          rule.purpose &&
+          (!AI_purpose || AI_purpose.value !== rule.purpose)
+        ) {
+          matched = false;
+        }
+        if (
+          rule.AI_subject &&
+          (!AI_subject || AI_subject.value !== rule.AI_subject)
+        ) {
+          matched = false;
+        }
+        if (rule.AI_user && (!AI_user || AI_user.value !== rule.AI_user)) {
+          matched = false;
+        }
+        if (
+          rule.AI_capability &&
+          (!AI_capability || AI_capability.value !== rule.AI_capability)
+        ) {
+          matched = false;
+        }
 
-      if (rule.purpose && AI_purpose.value !== rule.purpose) {
-        matched = false;
-      }
-      if (rule.AI_subject && AI_subject.value !== rule.AI_subject) {
-        matched = false;
-      }
-      if (rule.AI_user && AI_user.value !== rule.AI_user) {
-        matched = false;
-      }
-      if (rule.AI_capability && AI_capability.value !== rule.AI_capability) {
-        matched = false;
-      }
-
-      if (matched) {
-        setAI_domain({ value: rule.domain, label: rule.domain });
-      }
-    });
+        if (matched) {
+          setAI_domain({ value: rule.domain, label: rule.domain });
+        }
+      });
+    }
   }, [AI_purpose, AI_subject, AI_user, AI_capability]);
 
   const checkSystem = () => {
@@ -134,15 +139,15 @@ function App() {
   return (
     <div className="App">
       <h3>
-        Please choose a purpose for the AI. It is a required field. The button
-        to check the system will only appear after a purpose has been chosen.
+        Please choose a purpose for the AI. All fields are required. The button
+        to check the system will only appear after all options have been chosen.
       </h3>
       <h4>Domain</h4>
       <Select
         className="select"
         placeholder="Select Domain"
         onChange={setAI_domain}
-        value={AI_domain} // Use the state value here
+        value={AI_domain}
         options={getOptions(inputData.Domain)}
         isSearchable
         isClearable
@@ -154,6 +159,7 @@ function App() {
         className="select"
         placeholder="Select Purpose"
         onChange={setAI_purpose}
+        value={AI_purpose}
         options={getOptions(inputData.Purposes)}
         isSearchable
         isClearable
@@ -165,8 +171,11 @@ function App() {
         className="select"
         placeholder="Select Capability"
         onChange={setAI_capability}
+        value={AI_capability}
         options={getOptions(inputData.Capabilities)}
-        defaultValue={{ value: "Any", label: "Any" }} // Set default value
+        isSearchable
+        isClearable
+        required
       />
 
       <h4>User</h4>
@@ -174,8 +183,11 @@ function App() {
         className="select"
         placeholder="Select User"
         onChange={setAI_user}
+        value={AI_user}
         options={getOptions(inputData.Stakeholders)}
-        defaultValue={{ value: "Any", label: "Any" }} // Set default value
+        isSearchable
+        isClearable
+        required
       />
 
       <h4>Subject</h4>
@@ -183,11 +195,14 @@ function App() {
         className="select"
         placeholder="Select Subject"
         onChange={setAI_subject}
+        value={AI_subject}
         options={getOptions(inputData.Stakeholders)}
-        defaultValue={{ value: "Any", label: "Any" }} // Set default value
+        isSearchable
+        isClearable
+        required
       />
 
-      {AI_purpose && (
+      {AI_purpose && AI_domain && AI_capability && AI_user && AI_subject && (
         <button onClick={() => alert(checkSystem())}>Check</button>
       )}
     </div>
